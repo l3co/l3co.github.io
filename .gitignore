@@ -104,3 +104,11 @@ go.work.sum
 # env file
 .env
 
+# Hugo
+public/
+resources/
+.hugo_build.lock
+
+# IDE
+.idea/
+
