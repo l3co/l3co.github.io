@@ -1,0 +1,16 @@
+languageCode = "pt-br"
+languageName = "Português"
+weight = 1
+title = "Blog do Leco"
+
+[params]
+  displayName = "PT-BR"
+  isoCode = "pt-br"
+  dateFormat = "2 January 2006"
+
+  [params.author]
+    name = "Leco"
+    # image = "img/author.jpg"
+    # headline = "Desenvolvedor"
+    # bio = "Uma breve bio sobre você"
+    links = []

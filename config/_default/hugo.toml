@@ -1,0 +1,15 @@
+theme = "blowfish"
+baseURL = "https://l3co.github.io/blog/"
+defaultContentLanguage = "pt-br"
+enableRobotsTXT = true
+summaryLength = 0
+
+[pagination]
+  pagerSize = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
