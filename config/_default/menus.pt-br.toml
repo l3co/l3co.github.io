@@ -9,7 +9,12 @@
   weight = 20
 
 [[main]]
-  pre = "github"
-  name = "GitHub"
-  url = "https://github.com/l3co"
+  name = "Sobre"
+  pageRef = "about"
   weight = 30
+
+[[main]]
+  pre = "github"
+  identifier = "github"
+  url = "https://github.com/l3co"
+  weight = 40

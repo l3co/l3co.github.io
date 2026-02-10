@@ -1,5 +1,5 @@
 theme = "blowfish"
-baseURL = "https://l3co.github.io/blog/"
+baseURL = "https://l3co.github.io/"
 defaultContentLanguage = "pt-br"
 enableRobotsTXT = true
 summaryLength = 0

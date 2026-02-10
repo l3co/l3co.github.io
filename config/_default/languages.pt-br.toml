@@ -11,6 +11,9 @@ title = "Blog do Leco"
   [params.author]
     name = "Leco"
     # image = "img/author.jpg"
-    # headline = "Desenvolvedor"
-    # bio = "Uma breve bio sobre você"
-    links = []
+    headline = "Desenvolvedor"
+    bio = "Apaixonado por tecnologia e desenvolvimento de software"
+    links = [
+      { github = "https://github.com/l3co" },
+      { linkedin = "https://linkedin.com/in/l3co" },
+    ]

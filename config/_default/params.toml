@@ -1,8 +1,9 @@
-colorScheme = "blowfish"
+colorScheme = "terminal"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
+enableStructuredBreadcrumbs = true
 
 [header]
   layout = "basic"
