@@ -1,109 +1,98 @@
 baseURL = "https://l3co.github.io/"
 title = "Leco"
 languageCode = "pt-br"
-theme = "PaperMod"
+theme = "rusty-typewriter"
 enableRobotsTXT = true
-buildDrafts = false
-buildFuture = false
-buildExpired = false
+pygmentsUseClasses = true
 
 [pagination]
-  pagerSize = 10
-
-[minify]
-  disableXML = true
-  minifyOutput = true
+  pagerSize = 7
 
 [params]
-  env = "production"
-  title = "Leco"
-  description = "Apaixonado por tecnologia e desenvolvimento de software"
-  keywords = ["Blog", "Desenvolvimento", "Software", "Tecnologia"]
-  author = "Leco"
-  DateFormat = "2 January 2006"
-  defaultTheme = "auto"
-  disableThemeToggle = false
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowWordCount = false
-  ShowRssButtonInSectionTermList = true
-  UseHugoToc = true
-  disableSpecial1stPost = false
-  disableScrollToTop = false
-  comments = false
-  hidemeta = false
-  hideSummary = false
-  showtoc = true
-  tocopen = false
+  summaryLength = 1
 
-  [params.homeInfoParams]
-    Title = "Olá! 👋"
-    Content = "Bem-vindo ao meu blog. Aqui compartilho experiências, aprendizados e reflexões sobre desenvolvimento de software e tecnologia."
+  [params.author]
+    name = "Leco"
+    bio = "Apaixonado por tecnologia e desenvolvimento de software"
 
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/l3co"
+  [params.links]
+    GitHub = "https://github.com/l3co"
+    LinkedIn = "https://linkedin.com/in/l3co"
 
-  [[params.socialIcons]]
-    name = "linkedin"
-    url = "https://linkedin.com/in/l3co"
+  [params.rtwt]
+    sidePane = true
+    countPageItems = 7
+    searchPath = "search"
 
-  [[params.socialIcons]]
-    name = "rss"
-    url = "index.xml"
+  [params.rtwt.home]
+    showBio = true
+    showAuthorImg = true
+    sidePaneTags = true
+    showFeatured = true
+    showRecent = true
+    hideRecentWhenFeatured = true
+    countRecent = 5
 
-  [params.cover]
-    hidden = true
-    hiddenInList = true
-    hiddenInSingle = true
+  [params.rtwt.side.home]
+    sidePaneSticky = false
+    taxonomies = ["tags"]
+    countTaxonomy = 6
 
-  [params.editPost]
-    URL = "https://github.com/l3co/l3co.github.io/tree/main/content"
-    Text = "Sugerir alteração"
-    appendFilePath = true
+  [params.rtwt.side.list]
+    sidePaneSticky = false
 
-  [params.fuseOpts]
-    isCaseSensitive = false
-    shouldSort = true
-    location = 0
-    distance = 1000
-    threshold = 0.4
-    minMatchCharLength = 0
-    limit = 10
-    keys = ["title", "permalink", "summary", "content"]
+  [params.rtwt.side.single]
+    sidePaneSticky = true
+    showDetails = true
+    showTableOfContents = true
+    showAttachments = true
+    showRelated = true
+    countRelated = 5
 
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
+[related]
+  includeNewer = true
+  [[related.indices]]
+    name = "tags"
+    weight = 100
 
-[[menu.main]]
-  identifier = "posts"
-  name = "Posts"
-  url = "/posts/"
-  weight = 10
-
-[[menu.main]]
-  identifier = "tags"
-  name = "Tags"
-  url = "/tags/"
-  weight = 20
-
-[[menu.main]]
-  identifier = "search"
-  name = "Busca"
-  url = "/search/"
-  weight = 30
-
-[[menu.main]]
-  identifier = "about"
-  name = "Sobre"
-  url = "/about/"
-  weight = 40
+[taxonomies]
+  tag = "tags"
 
 [markup]
   [markup.highlight]
     noClasses = false
 
-pygmentsUseClasses = true
+[[menus.main]]
+  name = "Posts"
+  pageRef = "/posts"
+  weight = 1
+
+[[menus.main]]
+  name = "Tags"
+  pageRef = "/tags"
+  weight = 2
+
+[[menus.main]]
+  name = "Sobre"
+  pageRef = "/about.md"
+  weight = 3
+
+# Build search index
+[outputFormats]
+  [outputFormats.SearchIndex]
+    mediaType = "application/json"
+    baseName = "searchindex"
+    isPlainText = true
+    notAlternative = true
+
+[mediaTypes]
+  [mediaTypes."application/json"]
+    suffixes = ["json"]
+
+[outputs]
+  home = ["HTML", "RSS", "SearchIndex"]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
