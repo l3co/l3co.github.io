@@ -1,11 +1,11 @@
 ---
 title: "Sobre"
 description: "Um pouco sobre mim"
-showDate: false
-showReadingTime: false
-showAuthor: true
-showTableOfContents: false
-showPagination: false
+ShowReadingTime: false
+ShowWordCount: false
+ShowShareButtons: false
+editPost:
+  disabled: true
 ---
 
 ## Olá! Eu sou o Leco
