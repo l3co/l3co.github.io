@@ -9,7 +9,7 @@ showToc: true
 TocOpen: false
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUQzUZ7s7sBlN35Fzn3biV1S_0WRDs5nFckBdRNxRwtOUO14lXEf7Tr6Hb_-MJBsulKikMo2ASEQve-iGmSvkWRL9_6x-myWrxoWBtMYHPwt6qplq7-qMX9xO-YwjoyGeT0BY_SFI6klbP4ozDOxP9OlI2cFDdT-1EdG0SmGwqKdl1Z96vlxYJ5q9K7XY/w400-h400/image1.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUQzUZ7s7sBlN35Fzn3biV1S_0WRDs5nFckBdRNxRwtOUO14lXEf7Tr6Hb_-MJBsulKikMo2ASEQve-iGmSvkWRL9_6x-myWrxoWBtMYHPwt6qplq7-qMX9xO-YwjoyGeT0BY_SFI6klbP4ozDOxP9OlI2cFDdT-1EdG0SmGwqKdl1Z96vlxYJ5q9K7XY/s1024/image1.png)  
+[![](/images/posts/a-atuacao-do-espirito-santo-na-biblia/a-atuacao-do-espirito-santo-na-biblia-1-a1799a52.jpg)](/images/posts/a-atuacao-do-espirito-santo-na-biblia/a-atuacao-do-espirito-santo-na-biblia-2-190a20bd.jpg)  
 A paz do Senhor, meus irmãos!
 
 Hoje quero compartilhar uma reflexão sobre a atuação do Espírito Santo nas Escrituras Sagradas e como Ele age em nossas vidas. Quando comecei a ler a Bíblia, decidi marcar em vermelho todas as passagens que mencionavam o Espírito Santo. Para minha surpresa, foram inúmeras. Naquele tempo, na narrativa bíblica, o Espírito Santo frequentemente repousava sobre pessoas específicas, escolhidas por Deus para cumprir propósitos e missões especiais.

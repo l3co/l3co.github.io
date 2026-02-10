@@ -9,7 +9,7 @@ showToc: true
 TocOpen: false
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicXPlIaTdTsO3v0YGrMHgZ8AokQZbjErZv-xqLobyyJcpO1c11pr4jEeoWycy8dCrvBXhyphenhyphennEXpzb-CEOBJhPMnqbD6Gx1rS-qt7SuGHj06ih_OtKRXLRcqcTzMeUq7wL0GAa46j9BzIKKSd6MskVIU7JlddG75k6jCarKlzkZQBNAN_8wW0mgHV58Ijhk/s320/image.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicXPlIaTdTsO3v0YGrMHgZ8AokQZbjErZv-xqLobyyJcpO1c11pr4jEeoWycy8dCrvBXhyphenhyphennEXpzb-CEOBJhPMnqbD6Gx1rS-qt7SuGHj06ih_OtKRXLRcqcTzMeUq7wL0GAa46j9BzIKKSd6MskVIU7JlddG75k6jCarKlzkZQBNAN_8wW0mgHV58Ijhk/s1024/image.png)
+[![](/images/posts/aplicando-o-metodo-5s-no/aplicando-o-metodo-5s-no-1-2cf0f878.jpg)](/images/posts/aplicando-o-metodo-5s-no/aplicando-o-metodo-5s-no-2-a22e26a9.jpg)
 
 A metodologia 5S, muito conhecida em ambientes administrativos e de produção, também pode ser aplicada ao desenvolvimento de software, trazendo mais organização, eficiência e qualidade ao processo. Para quem não conhece, o método 5S se baseia em cinco etapas principais: **Classificação, Colocar em Ordem, Limpar (ou Dar Brilho), Padronizar e Sustentar**. Vamos explorar como cada uma dessas etapas pode ser utilizada em projetos de desenvolvimento de software.
 

@@ -9,7 +9,7 @@ showToc: true
 TocOpen: false
 ---
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEhNzlGfZB6RQOKQCt6jvelaGxxHTxiETI0XCpdrzUI9VnoMh7VUDvgi-4Qx65xv0SHIbgwZ8HbmwAHQAQzwFXS_KuTpnp2wzO_JhMzW2N3bHxah7O-o9BP82HmDgBvLwGXkNw5V6tjgagKu3JNdO9bxAv-KudotyiF6AhtGBmYGyjzsdBt983--ND4hV1Q=w400-h400)](https://blogger.googleusercontent.com/img/a/AVvXsEhNzlGfZB6RQOKQCt6jvelaGxxHTxiETI0XCpdrzUI9VnoMh7VUDvgi-4Qx65xv0SHIbgwZ8HbmwAHQAQzwFXS_KuTpnp2wzO_JhMzW2N3bHxah7O-o9BP82HmDgBvLwGXkNw5V6tjgagKu3JNdO9bxAv-KudotyiF6AhtGBmYGyjzsdBt983--ND4hV1Q)  
+[![](/images/posts/o-que-voce-esta-querendo-com-o-dom-de/o-que-voce-esta-querendo-com-o-dom-de-1-dbdcaf0f.png)](/images/posts/o-que-voce-esta-querendo-com-o-dom-de/o-que-voce-esta-querendo-com-o-dom-de-2-e60abac6.png)  
 
 A paz do Senhor, meus irmãos.
 

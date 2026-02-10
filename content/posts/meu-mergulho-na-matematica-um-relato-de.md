@@ -9,7 +9,7 @@ showToc: true
 TocOpen: false
 ---
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEg3AJAFa_MECBE9xVUveDg8S2kWncSYBoZC5GxlWRgnr_yNPKIcH0qGKHcfxzvZkXlu7uO9Ed9bo8qAu-aluZnCMFrrmbX6J3SiN-ZBv3xyTWyB86bahbeOzJ7YvamO7mu_pTr_gZloKCa85wvUEpXPCyXJoNciXuHpbfsL_YzKTZ0pMmV_8sKqj0GLWFw=w400-h400)](https://blogger.googleusercontent.com/img/a/AVvXsEg3AJAFa_MECBE9xVUveDg8S2kWncSYBoZC5GxlWRgnr_yNPKIcH0qGKHcfxzvZkXlu7uO9Ed9bo8qAu-aluZnCMFrrmbX6J3SiN-ZBv3xyTWyB86bahbeOzJ7YvamO7mu_pTr_gZloKCa85wvUEpXPCyXJoNciXuHpbfsL_YzKTZ0pMmV_8sKqj0GLWFw)  
+[![](/images/posts/meu-mergulho-na-matematica-um-relato-de/meu-mergulho-na-matematica-um-relato-de-1-cd842319.png)](/images/posts/meu-mergulho-na-matematica-um-relato-de/meu-mergulho-na-matematica-um-relato-de-2-9e4faf6c.png)  
 
 # Meu Mergulho na Matemática
 

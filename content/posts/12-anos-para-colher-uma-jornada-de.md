@@ -9,7 +9,7 @@ showToc: true
 TocOpen: false
 ---
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEjYALzX-egu2MmrJcTbN5YiM27cVlIQJHvgtJhJFYSn78hyeqUEWhmMXk4spHVka-f56g6E8tEOgq7B6huZHv067ojGP_5YHAAb8OAzUEUg0c2gAjGBB_beRJi9o0nZYuEBCqLRfIqmKZLKsfr4Sf5-xOfCmJ4hMEUyZHZoQ_DvXUYZOdkvObf1zQYE8Hk=w400-h266)](https://blogger.googleusercontent.com/img/a/AVvXsEjYALzX-egu2MmrJcTbN5YiM27cVlIQJHvgtJhJFYSn78hyeqUEWhmMXk4spHVka-f56g6E8tEOgq7B6huZHv067ojGP_5YHAAb8OAzUEUg0c2gAjGBB_beRJi9o0nZYuEBCqLRfIqmKZLKsfr4Sf5-xOfCmJ4hMEUyZHZoQ_DvXUYZOdkvObf1zQYE8Hk)Foto extraída do site: https://www.cnabrasil.org.br/noticias/parana-tem-mudancas-no-zoneamento-do-trigo
+[![](/images/posts/12-anos-para-colher-uma-jornada-de/12-anos-para-colher-uma-jornada-de-1-a41f2d86.png)](/images/posts/12-anos-para-colher-uma-jornada-de/12-anos-para-colher-uma-jornada-de-2-bc73ab79.png)Foto extraída do site: https://www.cnabrasil.org.br/noticias/parana-tem-mudancas-no-zoneamento-do-trigo
 
 # Uma Jornada de Perseverança e Fé
 

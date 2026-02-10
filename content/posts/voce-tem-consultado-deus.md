@@ -9,7 +9,7 @@ showToc: true
 TocOpen: false
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoWvwW8bsR0NsGt4Aji6CnqiZLu1VbQx2XvBdXDv6ZI4o97AysmJgD971jBD1ljKcT1Li-u_BgSm41ebRnRNpaHTepU1HxIL2PNY-9ET0WGWP2xoUkvE8_mR0uweAkIF7Fm8IefvnLlNRAG4qxf8OeusWh0A06O-EAGzC_KL4r-pgcQC9wPo33OLip6nE/w400-h400/davi%20orando.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoWvwW8bsR0NsGt4Aji6CnqiZLu1VbQx2XvBdXDv6ZI4o97AysmJgD971jBD1ljKcT1Li-u_BgSm41ebRnRNpaHTepU1HxIL2PNY-9ET0WGWP2xoUkvE8_mR0uweAkIF7Fm8IefvnLlNRAG4qxf8OeusWh0A06O-EAGzC_KL4r-pgcQC9wPo33OLip6nE/s1024/davi%20orando.jpg)
+[![](/images/posts/voce-tem-consultado-deus/voce-tem-consultado-deus-1-f879eb18.jpg)](/images/posts/voce-tem-consultado-deus/voce-tem-consultado-deus-2-63603410.jpg)
 
 # **Tomando Decisões Segundo a Vontade de Deus**
 

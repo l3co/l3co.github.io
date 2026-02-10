@@ -9,7 +9,7 @@ showToc: true
 TocOpen: false
 ---
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEiM0DqGZj3-wtdO9HPwbzD_yAW8yNRArp0aEm0EhDUFJG2zrWkNbVBC4Lc7UFNS7kCDfH0XJTfJXMqKVZg6XPXxgZYzUKNjqfqJ5diugLipPJbTGuFqkD6jTGulp1trJpep3PQcMb_z1ZpffybPWmmJS4aRglg-IsrKFO3bTdRTvw6xB137UwDhaIe-VEw=w400-h400)](https://blogger.googleusercontent.com/img/a/AVvXsEiM0DqGZj3-wtdO9HPwbzD_yAW8yNRArp0aEm0EhDUFJG2zrWkNbVBC4Lc7UFNS7kCDfH0XJTfJXMqKVZg6XPXxgZYzUKNjqfqJ5diugLipPJbTGuFqkD6jTGulp1trJpep3PQcMb_z1ZpffybPWmmJS4aRglg-IsrKFO3bTdRTvw6xB137UwDhaIe-VEw)
+[![](/images/posts/voce-tem-sido-obediente/voce-tem-sido-obediente-1-24de1fcd.png)](/images/posts/voce-tem-sido-obediente/voce-tem-sido-obediente-2-4f0b2b80.png)
 
 **A Paz do Senhor a Todos os Irmãos**
 

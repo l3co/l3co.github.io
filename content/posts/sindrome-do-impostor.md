@@ -9,7 +9,7 @@ showToc: true
 TocOpen: false
 ---
 
-**[![](https://blogger.googleusercontent.com/img/a/AVvXsEj-P3xv0KYfZdirv639uDl0mA5m2_4cJ3FIY65AFz6sDnsSNQNeZw__V-j8thyHOMY09lAByAFKdciq4SUHsPh6Iyx6Oi3EpZh1LuDyO69hY1XCm64Prxyb7GY79R0v3uchK47o1LWAslL1oOfznX8BcSkc8tGeKhnr0nk5sVoWyQH2ABEIPqCNyx_Bu6c=w400-h400)](https://blogger.googleusercontent.com/img/a/AVvXsEj-P3xv0KYfZdirv639uDl0mA5m2_4cJ3FIY65AFz6sDnsSNQNeZw__V-j8thyHOMY09lAByAFKdciq4SUHsPh6Iyx6Oi3EpZh1LuDyO69hY1XCm64Prxyb7GY79R0v3uchK47o1LWAslL1oOfznX8BcSkc8tGeKhnr0nk5sVoWyQH2ABEIPqCNyx_Bu6c)**
+**[![](/images/posts/sindrome-do-impostor/sindrome-do-impostor-1-3e1845af.png)](/images/posts/sindrome-do-impostor/sindrome-do-impostor-2-5647786a.png)**
 
 # **Lidando com a Síndrome do Impostor no Desenvolvimento de Software**
 

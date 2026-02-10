@@ -87,4 +87,4 @@ Sirva a Deus como se fosse seu próprio Senhor. É estranho que, ao se converter
 
 O livro trata-se de uma coleção de conselhos para novos obreiros. Ele aborda as características básicas que um obreiro precisa ter, suas qualidades e valores. Todo capítulo é iniciado com uma pequena introdução; essa introdução é, às vezes, uma passagem bíblica ou uma história que traz ao leitor narrativas que complementam e apresentam esses valores e características que o autor julga importantes.
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEg-JsZm60CHAjm-HLKuCijPjG7wDxHy5r0yxT5alXzYm5yy4FjDfV3KjdPG174WFxbtKCEFjWQqz4LCvRT-v5p7_ur9JW8bgEsyLfksM4IdB0gRuqP3QsS5JtXGCQYHLqLDppaVFLut-HFECE9ORkna2bjSBR00PzOF-ZivZvejUSX_vunPCDbO4ylXx88=w327-h400)](https://blogger.googleusercontent.com/img/a/AVvXsEg-JsZm60CHAjm-HLKuCijPjG7wDxHy5r0yxT5alXzYm5yy4FjDfV3KjdPG174WFxbtKCEFjWQqz4LCvRT-v5p7_ur9JW8bgEsyLfksM4IdB0gRuqP3QsS5JtXGCQYHLqLDppaVFLut-HFECE9ORkna2bjSBR00PzOF-ZivZvejUSX_vunPCDbO4ylXx88)
+[![](/images/posts/conselho-para-obreiros/conselho-para-obreiros-1-3c68d4be.jpg)](/images/posts/conselho-para-obreiros/conselho-para-obreiros-2-abc564c1.jpg)

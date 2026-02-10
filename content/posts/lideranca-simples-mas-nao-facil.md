@@ -9,7 +9,7 @@ showToc: true
 TocOpen: false
 ---
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEj4oPhUzdjKdXkROmcT_qJKOzeo_PKtNugpJNMqzG8R4SgZZc57kAL9y53_fIUh6k3kwsXV4f7loR1ory7SOR4i0CVR6qWLtlbisMy8372UIyMMJCT-9Y_GCEG2DxQWBO56XXD61-el4VEmPPsTsFNjpevbuX-T6RxNhYW2sA0m4iAMqq1xC7Ycn31Ra_Y=w400-h400)](https://blogger.googleusercontent.com/img/a/AVvXsEj4oPhUzdjKdXkROmcT_qJKOzeo_PKtNugpJNMqzG8R4SgZZc57kAL9y53_fIUh6k3kwsXV4f7loR1ory7SOR4i0CVR6qWLtlbisMy8372UIyMMJCT-9Y_GCEG2DxQWBO56XXD61-el4VEmPPsTsFNjpevbuX-T6RxNhYW2sA0m4iAMqq1xC7Ycn31Ra_Y)  
+[![](/images/posts/lideranca-simples-mas-nao-facil/lideranca-simples-mas-nao-facil-1-727aab17.png)](/images/posts/lideranca-simples-mas-nao-facil/lideranca-simples-mas-nao-facil-2-2a566c50.png)  
 Recentemente, ao ler o livro Liderar é Simples, Mas Não é Fácil, do Almirante William McRaven, deparei-me com uma frase que chamou muito minha atenção:
 > “Por mais difícil que seja a liderança, ela não é complicada.”
 

@@ -9,7 +9,7 @@ showToc: true
 TocOpen: false
 ---
 
-**[![](https://blogger.googleusercontent.com/img/a/AVvXsEjwhf5D7P5-WSur2HaixCuOshInulMeXCg73gkN92XrBhUKA72ljOQWCd_HW80LdNXN3RSEWiVrlNepmSna1y9Z0wKyds7_2iSCwScYzYBUGvlBXa3AOvaCcUmWN-nfv1tImtJ2zlI5-fcEA39o_fPu_YIfHc4Rksf7PfMMWmxPQM5DYUlTPAePUIihwAI=w400-h400)](https://blogger.googleusercontent.com/img/a/AVvXsEjwhf5D7P5-WSur2HaixCuOshInulMeXCg73gkN92XrBhUKA72ljOQWCd_HW80LdNXN3RSEWiVrlNepmSna1y9Z0wKyds7_2iSCwScYzYBUGvlBXa3AOvaCcUmWN-nfv1tImtJ2zlI5-fcEA39o_fPu_YIfHc4Rksf7PfMMWmxPQM5DYUlTPAePUIihwAI)**
+**[![](/images/posts/servir-um-modelo-de-lideranca-inspirado/servir-um-modelo-de-lideranca-inspirado-1-2570f042.png)](/images/posts/servir-um-modelo-de-lideranca-inspirado/servir-um-modelo-de-lideranca-inspirado-2-7beee4e6.png)**
 
 # **Um Modelo de Liderança Inspirado em Cristo**
 

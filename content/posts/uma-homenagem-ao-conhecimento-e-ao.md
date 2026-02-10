@@ -9,7 +9,7 @@ showToc: true
 TocOpen: false
 ---
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEjw1m2HKhTccHDy8-8FJglqI4kKvn3gi054NgPXtN_z3kHQ5Ms68Pp0wz38RWi7KsXblKoCH90Kxi4kIR0ahC418e2qvkqm8KC6BVrHdT0h9T0-bpw3XKqxa_UT11F1ifcOGVyXwz_kabwRXha3_duioA16A_ouogZtutK2jlJASurb5svacnP4rv2HR6o=w400-h400)](https://blogger.googleusercontent.com/img/a/AVvXsEjw1m2HKhTccHDy8-8FJglqI4kKvn3gi054NgPXtN_z3kHQ5Ms68Pp0wz38RWi7KsXblKoCH90Kxi4kIR0ahC418e2qvkqm8KC6BVrHdT0h9T0-bpw3XKqxa_UT11F1ifcOGVyXwz_kabwRXha3_duioA16A_ouogZtutK2jlJASurb5svacnP4rv2HR6o)  
+[![](/images/posts/uma-homenagem-ao-conhecimento-e-ao/uma-homenagem-ao-conhecimento-e-ao-1-2e01ebb7.png)](/images/posts/uma-homenagem-ao-conhecimento-e-ao/uma-homenagem-ao-conhecimento-e-ao-2-aa742147.png)  
 
 # Uma Homenagem ao Conhecimento e ao Esforço
 

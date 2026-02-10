@@ -11,7 +11,7 @@ TocOpen: false
 
 ## O Desafio do Ceticismo
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQKVfSNpw9Zl2fpeDU-JhfKi1FAc8K7mqI_XiZahu0fn0AveZL79KxUobiZAKK6Gga63WlDpQrnw4x49YiRq8vUsPa-TXXEtCtmsYLpsJYi1tJe3iHI9Pzht9ERGf9Mjq5CQsGYCATCqZWt0p9VbMdak0q75wqXcTESg8QW8prFK7MMnuWrjzxCxEE0-k/w400-h400/lupa.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQKVfSNpw9Zl2fpeDU-JhfKi1FAc8K7mqI_XiZahu0fn0AveZL79KxUobiZAKK6Gga63WlDpQrnw4x49YiRq8vUsPa-TXXEtCtmsYLpsJYi1tJe3iHI9Pzht9ERGf9Mjq5CQsGYCATCqZWt0p9VbMdak0q75wqXcTESg8QW8prFK7MMnuWrjzxCxEE0-k/s1024/lupa.png)  
+[![](/images/posts/a-fe-e-historia-uma-reflexao-sobre/a-fe-e-historia-uma-reflexao-sobre-1-c38edc77.jpg)](/images/posts/a-fe-e-historia-uma-reflexao-sobre/a-fe-e-historia-uma-reflexao-sobre-2-2b4f33d8.jpg)  
 
 Acredito que pode haver algo controverso nos seus pensamentos, algo sobre o qual talvez você nunca tenha parado para refletir. Muitas pessoas questionam a veracidade da Bíblia, argumentando: "Como você pode saber? Como pode ter certeza de que Jesus curou este ou aquele? Como pode confiar que Salomão fez isso ou Davi aquilo?" Mas a minha pergunta se aplica da mesma maneira a essas pessoas: como podem ter certeza absoluta dos eventos históricos de seu próprio país ou das grandes personalidades da história? Afinal, elas também não estavam lá.
 

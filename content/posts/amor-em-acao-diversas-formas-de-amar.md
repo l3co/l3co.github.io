@@ -9,7 +9,7 @@ showToc: true
 TocOpen: false
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAvA7xiK2PciJZL5gWySNLC_2oeNyQohrFR6bYbR7ScOHC768Ec8WnQIWzVR626Q85PFavWRlIN93LaoDNVuXlrLFVidOUV4GODz_1-ZIshBvotIO9OAS4q8brgeRjUORN7y7B3z_lE1w-fLFOHKs9GMddhNg6yAe197M1jlZbBCtR4tjr5Js9Jb5qOnA/w400-h400/clean%20and%20cooking.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAvA7xiK2PciJZL5gWySNLC_2oeNyQohrFR6bYbR7ScOHC768Ec8WnQIWzVR626Q85PFavWRlIN93LaoDNVuXlrLFVidOUV4GODz_1-ZIshBvotIO9OAS4q8brgeRjUORN7y7B3z_lE1w-fLFOHKs9GMddhNg6yAe197M1jlZbBCtR4tjr5Js9Jb5qOnA/s1024/clean%20and%20cooking.png)
+[![](/images/posts/amor-em-acao-diversas-formas-de-amar/amor-em-acao-diversas-formas-de-amar-1-c0a3edfb.jpg)](/images/posts/amor-em-acao-diversas-formas-de-amar/amor-em-acao-diversas-formas-de-amar-2-aa4ed5ff.jpg)
 
 **A Paz do Senhor, meus irmãos!**
 

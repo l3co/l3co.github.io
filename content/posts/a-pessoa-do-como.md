@@ -9,7 +9,7 @@ showToc: true
 TocOpen: false
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNrDmS7oEfwXAwk9qeW3wrEp7srR2wF17GoaMWIQ8zj1mvzwKKV3BVsqaufQMqkB3LJ4BYUFJjGh9RjdKtrj3rtf5paabbFvanYrzPHDHOmJADkvSfzx8FrwmN7MFSKjCf0VIao2olpRFHbJhgE9l0QLchGI-PWwgwe3MoRT9qkRnh8YaRTghJvd3zOuo/w400-h400/how.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNrDmS7oEfwXAwk9qeW3wrEp7srR2wF17GoaMWIQ8zj1mvzwKKV3BVsqaufQMqkB3LJ4BYUFJjGh9RjdKtrj3rtf5paabbFvanYrzPHDHOmJADkvSfzx8FrwmN7MFSKjCf0VIao2olpRFHbJhgE9l0QLchGI-PWwgwe3MoRT9qkRnh8YaRTghJvd3zOuo/s1024/how.jpg)  
+[![](/images/posts/a-pessoa-do-como/a-pessoa-do-como-1-e28a8642.jpg)](/images/posts/a-pessoa-do-como/a-pessoa-do-como-2-b779557c.jpg)  
 Há algum tempo, li um livro chamado Comece Pelo Porquê, de Simon Sinek. Nesse livro, o autor explora o conceito do “Porquê” e como ele molda organizações e indivíduos. Sinek distingue três tipos de pessoas em qualquer empreendimento: as do “Porquê”, as do “Como” e as do “O Que”.  
 Neste artigo, vou focar nas pessoas do “Como”, porque, ao longo da minha carreira, percebi que sou alguém que ajuda a implementar os “Porquês” de parceiros, amigos e sócios.
 

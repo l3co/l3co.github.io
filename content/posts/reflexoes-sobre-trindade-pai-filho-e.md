@@ -9,7 +9,7 @@ showToc: true
 TocOpen: false
 ---
 
-![](https://blogger.googleusercontent.com/img/a/AVvXsEi-B36BkjqB4Hgp6UURvG4h72g-jMDitcscwkNOWJalh6mUU6-XdkURXh-WATeUBhoJ6_0AIj1XRegZiz8Ny1wscevIBaI9VybF_pmgVa-YS2XhXCQ7tc0jZqHRXNBtiWb6QhzTuwa0YWuaOkq1TFIB7Z8ywQ_0S-PCoLCaMLnOEjpMPFVCaYjU1Hhqgq8=w400-h400)
+![](/images/posts/reflexoes-sobre-trindade-pai-filho-e/reflexoes-sobre-trindade-pai-filho-e-1-5fb3400b.png)
 
 # Reflexões Sobre a Trindade: Pai, Filho e Espírito Santo
 

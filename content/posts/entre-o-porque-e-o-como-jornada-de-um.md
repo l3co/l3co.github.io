@@ -9,7 +9,7 @@ showToc: true
 TocOpen: false
 ---
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEiC1iHERGcViW3lKQRAA4Ty2hPxTdnAK1aKf6rES0JYptZasO8-QYktJ7BaBcwtd9TDSxLFhXgou9dPyOwr7kKGUuTsSE7tDOM20CdpneZUSLcWNaCZfoyCA26GDfUEInrGV99OkylU-NKdeHhnKW-Pm6M444NRuDV-Vg6oP1tP292XE2Asc4lpnHxulYY=w400-h400)](https://blogger.googleusercontent.com/img/a/AVvXsEiC1iHERGcViW3lKQRAA4Ty2hPxTdnAK1aKf6rES0JYptZasO8-QYktJ7BaBcwtd9TDSxLFhXgou9dPyOwr7kKGUuTsSE7tDOM20CdpneZUSLcWNaCZfoyCA26GDfUEInrGV99OkylU-NKdeHhnKW-Pm6M444NRuDV-Vg6oP1tP292XE2Asc4lpnHxulYY)  
+[![](/images/posts/entre-o-porque-e-o-como-jornada-de-um/entre-o-porque-e-o-como-jornada-de-um-1-ea862399.png)](/images/posts/entre-o-porque-e-o-como-jornada-de-um/entre-o-porque-e-o-como-jornada-de-um-2-e1577945.png)  
 
 # Entre o Porquê e o Como
 
@@ -49,7 +49,7 @@ Apesar de o projeto não ter encontrado uma instituição que desse continuidade
 
 Disponibilizei o código-fonte, aberto para que outros o adaptassem e dessem continuidade, se desejassem.
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEjTuowCrQhN6LhXrURgdQGjVhSXu5OOQFzvcSS1yqErN8gA_SA2zHD3_8lSHYvgPunqFtWMn6TBQx-DV6Tksj2-UuaAM36q4UfOq5YmAz97YsFusg2wLbPxtzA3kPPLzPn4h0czomR7PQxu8s9D4w7BiC6ZCyExzCm03UdohXlqseB5fIk4MEty42FpAIs=w58-h58)]( https://gitlab.com/desaparecidos.me)[![](https://blogger.googleusercontent.com/img/a/AVvXsEgN6nY04bWt1FU-Thy2HWTLUjbu_VkCM5C7an9K2E21QB2aMLuiNVAvr4zTHirW-ujR2XkAhPAz-BBkClXbC8jlDkFqNU4v2Qv-A1pY3eLsGeShAkH0KgYBe_vBf6o9Xdom5nWuP1yPQ9BKX8OCC8S51cgBrlpnCmsde0VPauLzQ4QKTV98I5p2R17kaPM=w60-h60)](http://docs-desaparecidos.surge.sh/)   
+[![](/images/posts/entre-o-porque-e-o-como-jornada-de-um/entre-o-porque-e-o-como-jornada-de-um-3-dbfc7cae.png)]( https://gitlab.com/desaparecidos.me)[![](/images/posts/entre-o-porque-e-o-como-jornada-de-um/entre-o-porque-e-o-como-jornada-de-um-4-c3b252d3.png)](http://docs-desaparecidos.surge.sh/)   
 
 **Reflexão: O Valor da Jornada**
 

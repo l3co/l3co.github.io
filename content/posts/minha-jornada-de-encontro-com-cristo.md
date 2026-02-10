@@ -9,7 +9,7 @@ showToc: true
 TocOpen: false
 ---
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEiFj70nTBgYD9G4TzucjfZXJ-VW2KYhXngpejSYI355sTLkIZG-DUFRqRXJZjZ21HSARsqLHbnPE2TPipav9aHU8ccuUSDZXAyYNyzuuvNf5oSAwARd07xJPQ63ytfnsVu5PWxbra6v0DhWlut9xv1QMS3pgeIgHdI0ZrPJqANyWv4Kk06rSBHdQ75Sa8g=w400-h400)](https://blogger.googleusercontent.com/img/a/AVvXsEiFj70nTBgYD9G4TzucjfZXJ-VW2KYhXngpejSYI355sTLkIZG-DUFRqRXJZjZ21HSARsqLHbnPE2TPipav9aHU8ccuUSDZXAyYNyzuuvNf5oSAwARd07xJPQ63ytfnsVu5PWxbra6v0DhWlut9xv1QMS3pgeIgHdI0ZrPJqANyWv4Kk06rSBHdQ75Sa8g)
+[![](/images/posts/minha-jornada-de-encontro-com-cristo/minha-jornada-de-encontro-com-cristo-1-4adbe470.png)](/images/posts/minha-jornada-de-encontro-com-cristo/minha-jornada-de-encontro-com-cristo-2-42f7225b.png)
 
 Quando eu era pequeno, tive uma visão de Cristo que me atormentou por muito tempo. Na visão, Ele queria me destruir. Isso parecia contraditório com tudo que ouvia sobre Jesus: que Ele era amoroso, que deu Sua vida por nós, que cuidava de cada um de nós. Eu não conseguia entender como alguém tão bom poderia querer algo assim para mim, uma criança.
 

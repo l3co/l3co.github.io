@@ -9,7 +9,7 @@ showToc: true
 TocOpen: false
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmeZ52RnGdYhtC-QF6JmqY8pwFhqk1XjBTmnJMheDHXM1oyoY7OTH3halmV-0ZidOFJ-jxaAaCppy9OUTarVw5d33QBHL-CMsMSa7uL7End8JGLgJHs7O63ka1Hk9x8I_y8oXSjG1GXeTAusOZyHxRA0IN3TQ-FHeMmiVwzxK17BglgCqPjnPXxUgb2YE/w400-h400/edificando.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmeZ52RnGdYhtC-QF6JmqY8pwFhqk1XjBTmnJMheDHXM1oyoY7OTH3halmV-0ZidOFJ-jxaAaCppy9OUTarVw5d33QBHL-CMsMSa7uL7End8JGLgJHs7O63ka1Hk9x8I_y8oXSjG1GXeTAusOZyHxRA0IN3TQ-FHeMmiVwzxK17BglgCqPjnPXxUgb2YE/s1024/edificando.png)  
+[![](/images/posts/onde-voce-esta-edificando-seus-planos/onde-voce-esta-edificando-seus-planos-1-ea293e7f.jpg)](/images/posts/onde-voce-esta-edificando-seus-planos/onde-voce-esta-edificando-seus-planos-2-63bb02ab.jpg)  
 
 A paz do Senhor, meus irmãos! Hoje quero trazer uma reflexão baseada nos ensinamentos que encontramos no Livro de Reis. Quantas vezes nos deparamos com projetos que parecem forçados? Por mais que haja esforço, não prosperam. Quero compartilhar como isso nos ensina sobre a importância de bases sólidas e estáveis para nossos empreendimentos, seja na vida, no trabalho ou na fé.
 

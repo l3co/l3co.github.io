@@ -9,7 +9,7 @@ showToc: true
 TocOpen: false
 ---
 
-**[![](https://blogger.googleusercontent.com/img/a/AVvXsEhNWk_C4ysAeq8VAWbz5kILyHeISvRd5vJ_KQYjyQ4rVSCdRo-m0A-ZmvB7rWkt5SUyZ0HmPJV73PRQ4mpnYdR58c1RyMjbNFbpm8DqF8eV-Y0_xxs5cficY58mGYU5Ervbe49taEkbQ8B_38BCwW3CMVHuB33fP2tohZBbJpf8X0WtcZawBaNuwfGmEWM=w400-h225)](https://blogger.googleusercontent.com/img/a/AVvXsEhNWk_C4ysAeq8VAWbz5kILyHeISvRd5vJ_KQYjyQ4rVSCdRo-m0A-ZmvB7rWkt5SUyZ0HmPJV73PRQ4mpnYdR58c1RyMjbNFbpm8DqF8eV-Y0_xxs5cficY58mGYU5Ervbe49taEkbQ8B_38BCwW3CMVHuB33fP2tohZBbJpf8X0WtcZawBaNuwfGmEWM)**
+**[![](/images/posts/julgai-todas-as-coisas-uma-reflexao/julgai-todas-as-coisas-uma-reflexao-1-83c34c88.png)](/images/posts/julgai-todas-as-coisas-uma-reflexao/julgai-todas-as-coisas-uma-reflexao-2-eaf6dc48.png)**
 
 # **Uma Reflexão Baseada nas Escrituras**
 

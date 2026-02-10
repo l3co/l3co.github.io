@@ -9,7 +9,7 @@ showToc: true
 TocOpen: false
 ---
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEhFFyK21_QtnljdUkDKDOy_V1CrH3EY7D1N_3lFgtZkHyOpN7bwqUmiIR_JqkRGI-fOn9bsOa8EOhX8dBvCUcuGTHRMY2HPZhzOcr_t01-77ajFNDt7aclqjWiFB34GJ3_MU1P9dZt8_e4IBXD4zc-HY-F46EC9CdVDPmq-wgjtoj0ldzq08JRikajXe1o=w400-h400)](https://blogger.googleusercontent.com/img/a/AVvXsEhFFyK21_QtnljdUkDKDOy_V1CrH3EY7D1N_3lFgtZkHyOpN7bwqUmiIR_JqkRGI-fOn9bsOa8EOhX8dBvCUcuGTHRMY2HPZhzOcr_t01-77ajFNDt7aclqjWiFB34GJ3_MU1P9dZt8_e4IBXD4zc-HY-F46EC9CdVDPmq-wgjtoj0ldzq08JRikajXe1o)  
+[![](/images/posts/amor-e-lei-essencia-do-ensino-de-cristo/amor-e-lei-essencia-do-ensino-de-cristo-1-67902360.png)](/images/posts/amor-e-lei-essencia-do-ensino-de-cristo/amor-e-lei-essencia-do-ensino-de-cristo-2-f43c9d18.png)  
  A paz do Senhor, meus irmãos!
 
 Hoje quero compartilhar uma reflexão que me veio enquanto meditava sobre a aplicação da lei e a importância do amor em nossas vidas. Para começar, quero convidar você a fazer um pequeno exercício: segure a respiração pelo máximo de tempo que conseguir e, em seguida, respire profundamente.

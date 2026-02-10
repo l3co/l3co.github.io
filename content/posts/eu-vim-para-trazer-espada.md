@@ -9,7 +9,7 @@ showToc: true
 TocOpen: false
 ---
 
-**[![](https://blogger.googleusercontent.com/img/a/AVvXsEjzeThvciVHGkIctCRLQINEkiTnZP3RdekCYEGH1MaoTB-1mpJ7H-0QUXXa6c02EAWhL2BEe_HJoV0lJ1bAlHUDHEhEa9ArYELafMtx_f_mi07FphIbKRyEUGiCZw9Tg-FAxCX9ygOV8V_QWGUtE_FRGAbHXMKJb0NOUVnFN1gGNDVR1edPD5oklhfrh0Q=w400-h400)](https://blogger.googleusercontent.com/img/a/AVvXsEjzeThvciVHGkIctCRLQINEkiTnZP3RdekCYEGH1MaoTB-1mpJ7H-0QUXXa6c02EAWhL2BEe_HJoV0lJ1bAlHUDHEhEa9ArYELafMtx_f_mi07FphIbKRyEUGiCZw9Tg-FAxCX9ygOV8V_QWGUtE_FRGAbHXMKJb0NOUVnFN1gGNDVR1edPD5oklhfrh0Q)** **A paz do Senhor, meus irmãos,**
+**[![](/images/posts/eu-vim-para-trazer-espada/eu-vim-para-trazer-espada-1-12e4299a.png)](/images/posts/eu-vim-para-trazer-espada/eu-vim-para-trazer-espada-2-30303872.png)** **A paz do Senhor, meus irmãos,**
 
 Hoje quero compartilhar uma reflexão sobre algo que muitos de nós, cristãos, enfrentamos em nossa jornada: os conflitos que surgem dentro da nossa própria família quando aceitamos a Cristo e buscamos viver segundo a Palavra de Deus. Muitas vezes, nossas escolhas não são compreendidas por aqueles ao nosso redor, especialmente pelos mais próximos. Para dar luz a esse assunto, quero trazer à memória uma passagem de **Mateus 10:34-39**:
 

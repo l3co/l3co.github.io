@@ -11,7 +11,7 @@ TocOpen: false
 
 # Entre a Estrutura e a Flexibilidade
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEjLlcNVxPPr-wUvqsBYdhHgEvsjc-Ox9cClrNQZesilfKagj6zViIdspPQLMU5fBeSdeSaVsPWQmNIyHUPVDqJCgX8EgpTltJvnYLDjBqzHT2SPMOHfBOHZwYgNlntzh5GInVVREFx265tQwkOl7-w8j5b5pw56ZiWGhZM7DI7ceYawXeXQcwK08Ie55zY=w400-h400)](https://blogger.googleusercontent.com/img/a/AVvXsEjLlcNVxPPr-wUvqsBYdhHgEvsjc-Ox9cClrNQZesilfKagj6zViIdspPQLMU5fBeSdeSaVsPWQmNIyHUPVDqJCgX8EgpTltJvnYLDjBqzHT2SPMOHfBOHZwYgNlntzh5GInVVREFx265tQwkOl7-w8j5b5pw56ZiWGhZM7DI7ceYawXeXQcwK08Ie55zY)  
+[![](/images/posts/o-papel-do-planejamento-no/o-papel-do-planejamento-no-1-29f26671.png)](/images/posts/o-papel-do-planejamento-no/o-papel-do-planejamento-no-2-1bd60b39.png)  
 
 ## Introdução
 
