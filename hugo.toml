@@ -1,60 +1,57 @@
-baseURL = "https://l3co.github.io/"
-title = "Leco"
-languageCode = "pt-br"
+baseURL = 'https://l3co.github.io/'
+title = 'Leco'
+theme = 'hugo-brewm'
+languageCode = 'pt-br'
 enableRobotsTXT = true
 enableGitInfo = true
+canonifyURLs = false
 
 [pagination]
   pagerSize = 10
 
-[params]
-  description = "Apaixonado por tecnologia e desenvolvimento de software"
-  author = "Leco"
-
-[params.home]
-  sections = ["posts"]
-  fullCover = false
-  centerHeadline = false
-
-[params.sections]
-  [params.sections.posts]
-    title = "Posts Recentes"
-    sort = "date"
-    reverse = true
-    cols = 3
-    padding = "0"
-    header = "full"
-    footer = "tags"
-    orientation = "stacked"
-    style = "border-0 card-zoom card-body-margin"
-    homepage = 6
-    separator = true
-
-[params.navigation]
-  logo = "img/logo.png"
-  logo-mode = false
-  logo-height = 30
-  color = "body"
-  fixed = true
-
-[params.favicon]
-  logo = "img/favicon.png"
-  sizes = [16, 32, 48]
-
-[params.style]
-  primary = "#059669"
-  themeOpacity = "O-75"
-  
-[outputs]
-  home = ["HTML", "RSS"]
-
 [markup]
   [markup.highlight]
+    codeFences = true
     noClasses = false
+
+[taxonomies]
+  tag = 'tags'
+
+[params]
+  title = "Leco"
+  description = "Apaixonado por tecnologia e desenvolvimento de software"
+  copyright = "Copyright 2025 © Leco"
+  HideHugoCredit = false
+  ZenMode = false
+
+[params.author]
+  name = 'Leco'
+
+[params.feed]
+  flowlines = true
+  flowlinesLimit = 21
+
+[params.home]
+  disableSlide = true
+  disableListing = false
+
+[params.posts]
+  justifying = false
+  colophon = true
+  related = true
+  share = true
+
+[params.typeface]
+  webSafe = false
+  roman = 'crimson'
+  sans = 'inter'
+
+[params.search]
+  enable = false
 
 [[menus.main]]
   name = "Posts"
-  pageRef = "/posts"
+  pageRef = "/post"
   weight = 10
 
 [[menus.main]]
@@ -66,6 +63,3 @@ enableGitInfo = true
   name = "Sobre"
   pageRef = "/about"
   weight = 30
-
-[[module.imports]]
-  path = "github.com/gethinode/hinode"
