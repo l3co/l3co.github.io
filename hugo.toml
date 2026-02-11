@@ -12,6 +12,7 @@ enableGitInfo = true
   author = "Leco"
 
 [params.style]
+  primary = "#059669"
   themeOpacity = "O-75"
   
 [outputs]
