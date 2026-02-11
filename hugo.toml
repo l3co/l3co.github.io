@@ -30,6 +30,17 @@ enableGitInfo = true
     homepage = 6
     separator = true
 
+[params.navigation]
+  logo = "img/logo.png"
+  logo-mode = false
+  logo-height = 30
+  color = "body"
+  fixed = true
+
+[params.favicon]
+  logo = "img/favicon.png"
+  sizes = [16, 32, 48]
+
 [params.style]
   primary = "#059669"
   themeOpacity = "O-75"
