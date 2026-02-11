@@ -9,7 +9,6 @@ showToc: true
 TocOpen: false
 ---
 
-## 
 
 ## **A Bíblia Precisa Ser Atualizada? Reflexões Sobre a Natureza Humana e a Atualidade das Escrituras**
 

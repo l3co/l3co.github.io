@@ -9,7 +9,6 @@ showToc: true
 TocOpen: false
 ---
 
-## 
 
 # **Reflexões Sobre Funções: Um Olhar da Programação para a Matemática**
 

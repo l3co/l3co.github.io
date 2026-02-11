@@ -15,7 +15,6 @@ TocOpen: false
   
 Hoje, quero compartilhar com vocês um pouco da minha experiência lidando com **demandas cross-team** (entre equipes), algumas falhas comuns e aprendizados que tive ao longo do tempo. Vou falar sobre os erros, as falácias e as armadilhas que enfrentamos ao tentar **lidar com pressão, falta de posicionamento** e, em alguns casos, **inícios tardios** que geram um caos inesperado.
 
-## 
 
 ## **Devemos priorizar ou não? A dor das demandas entre equipes**
 

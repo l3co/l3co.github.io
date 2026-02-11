@@ -9,7 +9,6 @@ showToc: true
 TocOpen: false
 ---
 
-## 
 
 # **Aprendizados com o Usuário: A Importância de Validar Soluções na Prática**
 

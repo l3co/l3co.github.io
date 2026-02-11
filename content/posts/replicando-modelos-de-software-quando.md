@@ -9,7 +9,6 @@ showToc: true
 TocOpen: false
 ---
 
-## 
 
 # Reflexão: Você Realmente Precisa de Todas as Peças do LEGO?
 

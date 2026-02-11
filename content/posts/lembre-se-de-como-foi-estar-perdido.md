@@ -9,7 +9,6 @@ showToc: true
 TocOpen: false
 ---
 
-## 
 
 # **Minha Jornada de Encontro com a Fé em Cristo**
 

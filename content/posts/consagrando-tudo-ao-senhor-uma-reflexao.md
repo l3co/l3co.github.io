@@ -9,7 +9,6 @@ showToc: true
 TocOpen: false
 ---
 
-## 
 
 # **Consagrando Tudo ao Senhor: Uma Reflexão Cristã**
 

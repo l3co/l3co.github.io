@@ -9,7 +9,6 @@ showToc: true
 TocOpen: false
 ---
 
-# 
 
 # **Testemunhos de Fé e o Operar do Espírito Santo**
 

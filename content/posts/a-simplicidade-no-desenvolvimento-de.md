@@ -9,9 +9,7 @@ showToc: true
 TocOpen: false
 ---
 
-## 
 
-## 
 
 ## **A Simplicidade no Desenvolvimento de Software: Um Luxo e um Desafio**
 

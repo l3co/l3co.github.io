@@ -9,7 +9,6 @@ showToc: true
 TocOpen: false
 ---
 
-## 
 
 # **Espaço do Problema e Espaço da Solução**
 

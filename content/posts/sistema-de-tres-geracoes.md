@@ -9,7 +9,6 @@ showToc: true
 TocOpen: false
 ---
 
-## 
 
 # **Uma Reflexão Sobre Tecnologia e Legado**
 
