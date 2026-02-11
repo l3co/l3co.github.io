@@ -1,9 +1,0 @@
-:root[color-scheme^='light'] {
-  --primary-color: #059669;
-  --selection-color: #6ee7b7;
-}
-
-:root[color-scheme^='dark'] {
-  --primary-color: #34d399;
-  --selection-color: #065f46;
-}

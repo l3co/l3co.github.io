@@ -1,62 +1,21 @@
 baseURL = "https://l3co.github.io/"
 title = "Leco"
 languageCode = "pt-br"
-theme = "rusty-typewriter"
 enableRobotsTXT = true
-pygmentsUseClasses = true
+enableGitInfo = true
 
 [pagination]
-  pagerSize = 7
+  pagerSize = 10
 
 [params]
-  summaryLength = 1
+  description = "Apaixonado por tecnologia e desenvolvimento de software"
+  author = "Leco"
 
-  [params.author]
-    name = "Leco"
-    bio = "Apaixonado por tecnologia e desenvolvimento de software"
-
-  [params.links]
-    GitHub = "https://github.com/l3co"
-    LinkedIn = "https://linkedin.com/in/l3co"
-
-  [params.rtwt]
-    sidePane = true
-    countPageItems = 7
-    searchPath = "search"
-
-  [params.rtwt.home]
-    showBio = true
-    showAuthorImg = true
-    sidePaneTags = true
-    showFeatured = true
-    showRecent = true
-    hideRecentWhenFeatured = true
-    countRecent = 5
-
-  [params.rtwt.side.home]
-    sidePaneSticky = false
-    taxonomies = ["tags"]
-    countTaxonomy = 6
-
-  [params.rtwt.side.list]
-    sidePaneSticky = false
-
-  [params.rtwt.side.single]
-    sidePaneSticky = true
-    showDetails = true
-    showTableOfContents = true
-    showAttachments = true
-    showRelated = true
-    countRelated = 5
-
-[related]
-  includeNewer = true
-  [[related.indices]]
-    name = "tags"
-    weight = 100
-
-[taxonomies]
-  tag = "tags"
+[params.style]
+  themeOpacity = "O-75"
+  
+[outputs]
+  home = ["HTML", "RSS"]
 
 [markup]
   [markup.highlight]
@@ -65,34 +24,17 @@ pygmentsUseClasses = true
 [[menus.main]]
   name = "Posts"
   pageRef = "/posts"
-  weight = 1
+  weight = 10
 
 [[menus.main]]
   name = "Tags"
   pageRef = "/tags"
-  weight = 2
+  weight = 20
 
 [[menus.main]]
   name = "Sobre"
-  pageRef = "/about.md"
-  weight = 3
+  pageRef = "/about"
+  weight = 30
 
-# Build search index
-[outputFormats]
-  [outputFormats.SearchIndex]
-    mediaType = "application/json"
-    baseName = "searchindex"
-    isPlainText = true
-    notAlternative = true
-
-[mediaTypes]
-  [mediaTypes."application/json"]
-    suffixes = ["json"]
-
-[outputs]
-  home = ["HTML", "RSS", "SearchIndex"]
-
-[module]
-  [module.hugoVersion]
-    extended = false
-    min = "0.116.0"
+[[module.imports]]
+  path = "github.com/gethinode/hinode"
