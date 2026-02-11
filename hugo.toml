@@ -11,6 +11,25 @@ enableGitInfo = true
   description = "Apaixonado por tecnologia e desenvolvimento de software"
   author = "Leco"
 
+[params.home]
+  sections = ["posts"]
+  fullCover = false
+  centerHeadline = false
+
+[params.sections]
+  [params.sections.posts]
+    title = "Posts Recentes"
+    sort = "date"
+    reverse = true
+    cols = 3
+    padding = "0"
+    header = "full"
+    footer = "tags"
+    orientation = "stacked"
+    style = "border-0 card-zoom card-body-margin"
+    homepage = 6
+    separator = true
+
 [params.style]
   primary = "#059669"
   themeOpacity = "O-75"
