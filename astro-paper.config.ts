@@ -3,10 +3,10 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://l3co.github.io",
-    title: "Leco",
+    title: "leco",
     description:
       "Apaixonado por tecnologia e desenvolvimento de software. Aqui compartilho experiências, aprendizados e reflexões sobre desenvolvimento de software, tecnologia e fé.",
-    author: "Leco",
+    author: "leco",
     profile: "https://github.com/l3co",
     ogImage: "default-og.jpg",
     lang: "pt-BR",
