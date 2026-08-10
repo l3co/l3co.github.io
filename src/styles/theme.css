@@ -1,0 +1,44 @@
+/* Register design tokens for Tailwind v4 */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --font-app: var(--font-google-sans-code);
+}
+
+/* Light theme values (verde-esmeralda, identidade visual do blog) */
+:root,
+[data-theme="light"] {
+  --background: #fdfdfd;
+  --foreground: #282728;
+  --accent: #059669;
+  --accent-foreground: #ffffff;
+  --muted: #e6e6e6;
+  --muted-foreground: #6b7280;
+  --border: #ece9e9;
+}
+
+/* Dark theme values (verde-esmeralda, identidade visual do blog) */
+[data-theme="dark"] {
+  --background: #212737;
+  --foreground: #eaedf3;
+  --accent: #34d399;
+  --accent-foreground: #022c22;
+  --muted: #343f60;
+  --muted-foreground: #afb9ca;
+  --border: #3b4863;
+}
+
+::selection {
+  background-color: #6ee7b7;
+  color: #022c22;
+}
+
+[data-theme="dark"] ::selection {
+  background-color: #065f46;
+  color: #eaedf3;
+}
