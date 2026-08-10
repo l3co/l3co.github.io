@@ -3,7 +3,7 @@ title: "Sobre"
 description: "Um pouco sobre mim"
 ---
 
-## Olá, eu sou o Leco! 👋
+## Olá, eu sou o leco! 👋
 
 Sou um desenvolvedor apaixonado por aprender, criar e resolver problemas. Baseado em São Paulo, dediquei minha carreira a entregar soluções de alta qualidade que impactam positivamente pessoas e negócios. Minha jornada é marcada pela busca constante por inovação, excelência técnica e impacto social.
 
