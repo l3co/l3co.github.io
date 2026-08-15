@@ -1,44 +1,62 @@
 /* Register design tokens for Tailwind v4 */
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
   --color-foreground: var(--foreground);
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
   --color-border: var(--border);
-  --font-app: var(--font-google-sans-code);
+  --color-dark: var(--dark);
+  --color-dark-foreground: var(--dark-foreground);
+  --font-app: "Mulish", ui-sans-serif, system-ui, sans-serif;
+  --font-mono-app: var(--font-google-sans-code);
 }
 
-/* Light theme values (verde-esmeralda, identidade visual do blog) */
+/*
+ * Light theme values — paleta inspirada no tema bookworm-light-astro
+ * (teal #01AD9F como accent, tons neutros claros).
+ * Ver planning/decisions/decision-002-visual-layer-strategy.md
+ */
 :root,
 [data-theme="light"] {
-  --background: #fdfdfd;
-  --foreground: #282728;
-  --accent: #059669;
+  --background: #ffffff;
+  --surface: #fafafa;
+  --foreground: #282430;
+  --accent: #01ad9f;
   --accent-foreground: #ffffff;
-  --muted: #e6e6e6;
+  --muted: #eef1f2;
   --muted-foreground: #6b7280;
-  --border: #ece9e9;
+  --border: #e3e6e7;
+  --dark: #152035;
+  --dark-foreground: #f5f7f8;
 }
 
-/* Dark theme values (verde-esmeralda, identidade visual do blog) */
+/*
+ * Dark theme values — o tema alvo não define uma variante escura;
+ * esta paleta é uma extensão desta implementação, usando o mesmo
+ * "dark" do tema alvo como plano de fundo.
+ */
 [data-theme="dark"] {
-  --background: #212737;
-  --foreground: #eaedf3;
-  --accent: #34d399;
-  --accent-foreground: #022c22;
-  --muted: #343f60;
-  --muted-foreground: #afb9ca;
-  --border: #3b4863;
+  --background: #10182b;
+  --surface: #152035;
+  --foreground: #eef1f4;
+  --accent: #2dd4c7;
+  --accent-foreground: #062521;
+  --muted: #1f2b45;
+  --muted-foreground: #a7b0c4;
+  --border: #2a3652;
+  --dark: #0a0f1c;
+  --dark-foreground: #eef1f4;
 }
 
 ::selection {
-  background-color: #6ee7b7;
-  color: #022c22;
+  background-color: #01ad9f;
+  color: #ffffff;
 }
 
 [data-theme="dark"] ::selection {
-  background-color: #065f46;
-  color: #eaedf3;
+  background-color: #0d5a53;
+  color: #eef1f4;
 }
