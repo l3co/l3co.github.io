@@ -48,13 +48,13 @@ Sete fases incrementais e sequenciais (com duas oportunidades de paralelismo pon
 
 | Phase | Objective | Depends on | Deliverable | Status |
 |---|---|---|---|---|
-| [Phase 00](./phases/phase-00-foundation-and-baseline.md) | Branch nova + build de demo do tema alvo funcionando | None | Branch + baseline de URLs | Planned |
-| [Phase 01](./phases/phase-01-content-schema-and-migration.md) | Confirmar schema de conteúdo e auditar assets dos 90 posts | Phase 00 | Auditoria de assets + schema revisado | Planned |
-| [Phase 02](./phases/phase-02-routing-and-page-parity.md) | Garantir paridade de rotas (`/post`, `/tags`, `/archives`, `/about`, `/search`, feeds) | Phase 00, Phase 01 | Todas as URLs atuais respondendo na nova build | Planned |
-| [Phase 03](./phases/phase-03-markdown-pipeline-parity.md) | Portar pipeline de markdown (callouts, TOC, Shiki transformers) | Phase 00 (paralelo à Phase 02) | Config de markdown consolidada e validada | Planned |
-| [Phase 04](./phases/phase-04-visual-port-and-dark-mode.md) | Portar layouts/componentes visuais + dark mode | Phase 01, Phase 02, Phase 03 | Layout completo do tema alvo, com dark mode | Planned |
-| [Phase 05](./phases/phase-05-integrations.md) | Religar Giscus, Pagefind, OG image, RSS, sitemap, robots.txt | Phase 04 | Todas as integrações obrigatórias funcionando | Planned |
-| [Phase 06](./phases/phase-06-validation-and-cutover.md) | Validação final e aprovação do usuário | Phase 05 | Aprovação explícita para merge | Planned |
+| [Phase 00](./phases/phase-00-foundation-and-baseline.md) | Branch nova + build de demo do tema alvo funcionando | None | Branch + baseline de URLs | Ready |
+| [Phase 01](./phases/phase-01-content-schema-and-migration.md) | Confirmar schema de conteúdo e auditar assets dos 90 posts | Phase 00 | [Auditoria de assets](./asset-audit.md) | Ready |
+| [Phase 02](./phases/phase-02-routing-and-page-parity.md) | Garantir paridade de rotas (`/post`, `/tags`, `/archives`, `/about`, `/search`, feeds) | Phase 00, Phase 01 | Diff de URLs 0 divergências (ver [validation-report.md](./validation-report.md)) | Ready |
+| [Phase 03](./phases/phase-03-markdown-pipeline-parity.md) | Portar pipeline de markdown (callouts, TOC, Shiki transformers) | Phase 00 (paralelo à Phase 02) | Não foi necessário portar nada — [Decision 002](./decisions/decision-002-visual-layer-strategy.md) manteve a config original intacta; validado com post real (bloco de código Shiki) | Ready |
+| [Phase 04](./phases/phase-04-visual-port-and-dark-mode.md) | Portar layouts/componentes visuais + dark mode | Phase 01, Phase 02, Phase 03 | Restilização completa ([Decision 002](./decisions/decision-002-visual-layer-strategy.md)), dark mode validado em todas as páginas | Ready |
+| [Phase 05](./phases/phase-05-integrations.md) | Religar Giscus, Pagefind, OG image, RSS, sitemap, robots.txt | Phase 04 | Todas validadas — ver [validation-report.md](./validation-report.md) | Ready |
+| [Phase 06](./phases/phase-06-validation-and-cutover.md) | Validação final e aprovação do usuário | Phase 05 | [validation-report.md](./validation-report.md) — aguardando aprovação do usuário | In Progress |
 
 ## Dependency map
 
