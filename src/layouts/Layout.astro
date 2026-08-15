@@ -28,6 +28,16 @@ const rssHref = getRelativeLocaleUrl(
   Astro.currentLocale ?? config.site.lang,
   "rss.xml"
 );
+
+// Built as a plain string (not `define:vars`) so `gtag` stays a real global
+// function, matching the standard snippet from Google — `define:vars` wraps
+// the script in an IIFE, which would make it non-global.
+const gaSnippet = site.googleAnalyticsId
+  ? `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${site.googleAnalyticsId}');`
+  : undefined;
 ---
 
 <!doctype html>
@@ -100,6 +110,20 @@ const rssHref = getRelativeLocaleUrl(
           name="google-site-verification"
           content={site.googleVerification}
         />
+      )
+    }
+
+    {
+      site.googleAnalyticsId && (
+        <>
+          {/* Google tag (gtag.js) */}
+          <script
+            is:inline
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${site.googleAnalyticsId}`}
+          />
+          <script is:inline set:html={gaSnippet} />
+        </>
       )
     }
 
