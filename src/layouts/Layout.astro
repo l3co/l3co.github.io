@@ -28,6 +28,16 @@ const rssHref = getRelativeLocaleUrl(
   Astro.currentLocale ?? config.site.lang,
   "rss.xml"
 );
+
+// Built as a plain string (not `define:vars`) so `gtag` stays a real global
+// function, matching the standard snippet from Google — `define:vars` wraps
+// the script in an IIFE, which would make it non-global.
+const gaSnippet = site.googleAnalyticsId
+  ? `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${site.googleAnalyticsId}');`
+  : undefined;
 ---
 
 <!doctype html>
@@ -44,7 +54,15 @@ const rssHref = getRelativeLocaleUrl(
     <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
 
-    <!-- Font -->
+    <!-- Body font (Mulish, bookworm-light-astro) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap"
+    />
+
+    <!-- Monospace font used by code blocks + the dynamic OG image generator -->
     <Font
       cssVariable="--font-google-sans-code"
       preload={[{ subset: "latin", weight: 400, style: "normal" }]}
@@ -92,6 +110,20 @@ const rssHref = getRelativeLocaleUrl(
           name="google-site-verification"
           content={site.googleVerification}
         />
+      )
+    }
+
+    {
+      site.googleAnalyticsId && (
+        <>
+          {/* Google tag (gtag.js) */}
+          <script
+            is:inline
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${site.googleAnalyticsId}`}
+          />
+          <script is:inline set:html={gaSnippet} />
+        </>
       )
     }
 

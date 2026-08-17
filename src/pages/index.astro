@@ -33,42 +33,44 @@ const homePath = getRelativeLocaleUrl(locale, "");
     data-home-path={homePath}
     class="app-layout my-1"
   >
-    <section id="hero" class="border-border border-b pt-8 pb-6">
-      <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
+    <section id="hero" class="border-border border-b py-10 sm:py-16">
+      <span class="text-accent block text-sm font-bold tracking-widest uppercase">
+        Seja bem-vindo(a)
+      </span>
+      <h1 class="mt-2 mb-3 inline-block text-4xl leading-tight font-extrabold text-balance sm:text-5xl">
         Olá, eu sou o leco 👋
       </h1>
-      <a
-        target="_blank"
-        href={`${import.meta.env.BASE_URL.replace(/\/?$/, "/")}rss.xml`}
-        class="inline-block"
-        aria-label="RSS Feed"
-        title="RSS Feed"
-      >
-        <IconRss
-          width={20}
-          height={20}
-          class="stroke-accent scale-125 stroke-3 rtl:-rotate-90"
-        />
-        <span class="sr-only">RSS Feed</span>
-      </a>
-
-      <p>
-        Apaixonado por tecnologia e desenvolvimento de software. Aqui
-        compartilho experiências, aprendizados e reflexões sobre
-        desenvolvimento de software, tecnologia e fé.
+      <p class="text-muted-foreground max-w-2xl text-lg">
+        Aqui eu compartilho o que vou aprendendo pelo caminho — tecnologia,
+        desenvolvimento de software e fé. Fica à vontade pra ler, e se
+        alguma coisa te fizer pensar (ou discordar 😄), deixa um
+        comentário: adoro trocar ideia.
       </p>
-      <p class="mt-2">
-        Leia os posts ou saiba mais{" "}
+      <div class="mt-6 flex flex-wrap items-center gap-4">
+        <LinkButton class="btn" href={getRelativeLocaleUrl(locale, "post")}>
+          {t.home.allPosts}
+          <IconArrowRight class="inline-block rtl:-rotate-180" />
+        </LinkButton>
         <LinkButton
-          class="hover:text-accent underline decoration-dashed underline-offset-4"
+          class="btn-outline"
           href={getRelativeLocaleUrl(locale, "about")}
         >
           sobre mim
-        </LinkButton>.
-      </p>
+        </LinkButton>
+        <a
+          target="_blank"
+          href={`${import.meta.env.BASE_URL.replace(/\/?$/, "/")}rss.xml`}
+          class="text-muted-foreground hover:text-accent inline-flex items-center gap-1"
+          aria-label="RSS Feed"
+          title="RSS Feed"
+        >
+          <IconRss width={20} height={20} class="stroke-current stroke-3 rtl:-rotate-90" />
+          <span class="sr-only">RSS Feed</span>
+        </a>
+      </div>
       {
         socials.length > 0 && (
-          <div class="mt-4 flex max-sm:flex-col sm:items-center">
+          <div class="mt-6 flex max-sm:flex-col sm:items-center">
             <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">
               {t.home.socialLinks}:
             </div>
@@ -87,10 +89,10 @@ const homePath = getRelativeLocaleUrl(locale, "");
             { "border-border border-b": recentPosts.length > 0 },
           ]}
         >
-          <h2 class="text-2xl font-semibold tracking-wide">
+          <h2 class="text-2xl font-extrabold tracking-wide">
             {t.home.featured}
           </h2>
-          <ul>
+          <ul class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {featuredPosts.map(data => (
               <Card variant="h3" {...data} />
             ))}
@@ -102,10 +104,10 @@ const homePath = getRelativeLocaleUrl(locale, "");
     {
       recentPosts.length > 0 && (
         <section id="recent-posts" class="pt-12 pb-6">
-          <h2 class="text-2xl font-semibold tracking-wide">
+          <h2 class="text-2xl font-extrabold tracking-wide">
             {t.home.recentPosts}
           </h2>
-          <ul>
+          <ul class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {recentPosts.slice(0, postsConfig.perIndex).map(data => (
               <Card variant="h3" {...data} />
             ))}
@@ -115,7 +117,7 @@ const homePath = getRelativeLocaleUrl(locale, "");
     }
 
     <div class="my-8 text-center">
-      <LinkButton href={getRelativeLocaleUrl(locale, "post")}>
+      <LinkButton class="btn" href={getRelativeLocaleUrl(locale, "post")}>
         {t.home.allPosts}
         <IconArrowRight class="inline-block rtl:-rotate-180" />
       </LinkButton>

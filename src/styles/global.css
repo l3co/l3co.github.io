@@ -31,7 +31,30 @@
 }
 
 @utility active-nav {
-  @apply underline decoration-wavy decoration-2 underline-offset-8;
+  @apply text-accent;
+}
+
+/* Code keeps the monospace "Google Sans Code" family regardless of the
+   body font (Mulish), since it's also what the dynamic OG image /
+   Shiki syntax highlighting are tuned for. */
+code,
+pre,
+.astro-code {
+  font-family: var(--font-mono-app), monospace;
+}
+
+/* Rounded, colored call-to-action button — bookworm-light-astro look. */
+@utility btn {
+  @apply bg-accent text-accent-foreground inline-flex items-center gap-2 rounded-full px-6 py-2.5 text-sm font-semibold tracking-wide transition-colors hover:opacity-90 focus-visible:no-underline;
+}
+
+@utility btn-outline {
+  @apply border-accent text-accent inline-flex items-center gap-2 rounded-full border-2 px-6 py-2.5 text-sm font-semibold tracking-wide transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:no-underline;
+}
+
+/* Card surface used by post listing cards. */
+@utility surface-card {
+  @apply bg-surface border-border overflow-hidden rounded-2xl border transition-shadow hover:shadow-lg;
 }
 
 :target {
