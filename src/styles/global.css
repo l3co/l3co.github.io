@@ -35,12 +35,20 @@
   }
 }
 
+/* Narrow reading column (~45rem, monograph's --layout-content) — articles
+   and simple text pages (about, tags, archives, search, 404). */
 @utility max-w-app {
-  @apply max-w-3xl;
+  @apply max-w-[45rem];
 }
 
-@utility app-layout {
+@utility app-canvas {
   @apply max-w-app mx-auto w-full px-4;
+}
+
+/* Wide shell (~75rem, monograph's --layout-wide) — header, footer, and the
+   home page's feed+sidebar grid, which need the extra room. */
+@utility app-layout {
+  @apply mx-auto w-full max-w-[75rem] px-4 sm:px-8;
 }
 
 @utility active-nav {
