@@ -9,15 +9,15 @@ import config from "@/config";
 type Props = {
   variant?: "h2" | "h3";
   /**
-   * "card" — thumbnail-forward card used in grids (home, /post, /tags/<tag>).
-   * "row" — compact single-line entry used in dense lists (/archives).
+   * "feed" — whitespace-separated entry (title, excerpt, meta), no thumbnail.
+   * "row" — single-line compact entry used in the dense /archives listing.
    */
-  layout?: "card" | "row";
+  layout?: "feed" | "row";
 } & CollectionEntry<"post">;
 
 const {
   variant: Heading = "h2",
-  layout = "card",
+  layout = "feed",
   id,
   data,
   filePath,
@@ -27,7 +27,6 @@ const { title, description, tags, ...props } = data;
 
 const locale = Astro.currentLocale ?? config.site.lang;
 const href = getPostUrl(id, filePath, locale);
-const thumbnail = `${href.replace(/\/+$/, "")}/index.png`;
 const firstTag = tags?.[0];
 ---
 
@@ -52,39 +51,28 @@ const firstTag = tags?.[0];
       <Datetime {...props} />
     </li>
   ) : (
-    <li class="surface-card group flex h-full flex-col">
-      <a href={href} class="block aspect-16/9 overflow-hidden" tabindex="-1" aria-hidden="true">
-        <img
-          src={thumbnail}
-          alt=""
-          loading="lazy"
-          width="1200"
-          height="675"
-          class="size-full object-cover transition-transform duration-300 group-hover:scale-105"
-        />
-      </a>
-      <div class="flex flex-1 flex-col gap-2 p-5">
-        {firstTag && (
-          <a
-            href={`/tags/${slugifyStr(firstTag)}/`}
-            class="text-accent w-fit text-xs font-bold tracking-wider uppercase hover:underline"
-          >
+    <li>
+      {firstTag && (
+        <p class="meta mb-2">
+          <a href={`/tags/${slugifyStr(firstTag)}/`} class="meta-accent hover:underline">
             {firstTag}
           </a>
-        )}
-        <a href={href} class="focus-visible:no-underline">
-          <Heading
-            transition:name={toTransitionName(id)}
-            class="hover:text-accent text-lg leading-snug font-bold text-balance"
-          >
-            {title}
-          </Heading>
-        </a>
-        <p class="text-muted-foreground line-clamp-2 text-sm">{description}</p>
-        <div class="mt-auto pt-2">
-          <Datetime {...props} size="sm" />
-        </div>
-      </div>
+        </p>
+      )}
+      <a href={href} class="link-title group">
+        <Heading
+          transition:name={toTransitionName(id)}
+          class="link-title-text text-2xl leading-snug font-semibold tracking-tight text-balance sm:text-[1.75rem]"
+        >
+          {title}
+        </Heading>
+        <p class="text-muted-foreground mt-3 text-base leading-relaxed text-pretty">
+          {description}
+        </p>
+        <p class="meta mt-4">
+          <Datetime {...props} size="sm" class="meta-accent" />
+        </p>
+      </a>
     </li>
   )
 }

@@ -3,18 +3,14 @@
 @layer base {
   /* ===== Override default Tailwind Typography styles ===== */
   .app-prose {
-    @apply prose;
+    @apply prose leading-[1.75];
 
     h1,
     h2,
     h3,
     h4,
     th {
-      @apply text-foreground mb-3;
-    }
-
-    h3 {
-      @apply italic;
+      @apply text-foreground mb-3 font-semibold tracking-tight;
     }
 
     p,
@@ -94,7 +90,7 @@
     }
 
     blockquote {
-      @apply border-s-accent/80 wrap-break-word opacity-80;
+      @apply border-border-strong text-foreground font-serif-app wrap-break-word text-[1.15em] italic;
     }
 
     details:not(.callout) {

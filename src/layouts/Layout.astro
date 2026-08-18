@@ -54,12 +54,13 @@ gtag('config', '${site.googleAnalyticsId}');`
     <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
 
-    <!-- Body font (Mulish, bookworm-light-astro) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Body font (Geist, self-hosted — see src/styles/global.css) -->
     <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap"
+      rel="preload"
+      href="/fonts/geist/Geist-Variable.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
     />
 
     <!-- Monospace font used by code blocks + the dynamic OG image generator -->
