@@ -35,12 +35,20 @@
   }
 }
 
+/* Narrow reading column (~45rem, monograph's --layout-content) — articles
+   and simple text pages (about, tags, archives, search, 404). */
 @utility max-w-app {
-  @apply max-w-3xl;
+  @apply max-w-[45rem];
 }
 
-@utility app-layout {
+@utility app-canvas {
   @apply max-w-app mx-auto w-full px-4;
+}
+
+/* Wide shell (~75rem, monograph's --layout-wide) — header, footer, and the
+   home page's feed+sidebar grid, which need the extra room. */
+@utility app-layout {
+  @apply mx-auto w-full max-w-[75rem] px-4 sm:px-8;
 }
 
 @utility active-nav {
@@ -76,9 +84,16 @@ pre,
   @apply border-border text-muted-foreground hover:border-accent/45 hover:bg-accent/7 hover:text-accent inline-flex items-center rounded-full border px-2.5 py-1 text-xs font-medium transition-colors;
 }
 
-/* Circular ghost icon button — header search/menu/theme controls. */
+/*
+ * Circular ghost icon button — header search/menu/theme controls.
+ * Uses inline-flex (not grid) on purpose: several call sites wrap this in
+ * LinkButton, whose own base class is `inline-flex items-center gap-1` —
+ * fighting it with `grid` left the display property winner undetermined
+ * and the icon un-centered (only `items-center` from whichever class won
+ * actually applied). inline-flex + justify-center never conflicts with it.
+ */
 @utility icon-btn {
-  @apply text-foreground hover:bg-muted hover:text-accent grid size-9 place-items-center rounded-md transition-colors;
+  @apply text-foreground hover:bg-muted hover:text-accent inline-flex size-9 items-center justify-center rounded-md transition-colors;
 }
 
 /*

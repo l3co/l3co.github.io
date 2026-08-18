@@ -30,7 +30,10 @@ export default defineAstroPaperConfig({
     search: "pagefind",
   },
   // TODO: revisar/completar com os links reais (LinkedIn, e-mail, etc.)
-  socials: [{ name: "github", url: "https://github.com/l3co" }],
+  socials: [
+    { name: "github", url: "https://github.com/l3co" },
+    { name: "gitlab", url: "https://gitlab.com/l3co" },
+  ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
     { name: "facebook", url: "https://www.facebook.com/sharer.php?u=" },
