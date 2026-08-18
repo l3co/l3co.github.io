@@ -1,62 +1,70 @@
 /* Register design tokens for Tailwind v4 */
 @theme inline {
   --color-background: var(--background);
-  --color-surface: var(--surface);
+  --color-card: var(--card);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
   --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
   --color-accent-foreground: var(--accent-foreground);
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
   --color-border: var(--border);
-  --color-dark: var(--dark);
-  --color-dark-foreground: var(--dark-foreground);
-  --font-app: "Mulish", ui-sans-serif, system-ui, sans-serif;
+  --color-border-strong: var(--border-strong);
+  --color-tip: var(--tip);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --font-app: var(--font-geist);
+  --font-serif-app: var(--font-serif);
   --font-mono-app: var(--font-google-sans-code);
 }
 
 /*
- * Light theme values — paleta inspirada no tema bookworm-light-astro
- * (teal #01AD9F como accent, tons neutros claros).
- * Ver planning/decisions/decision-002-visual-layer-strategy.md
+ * Light theme values — paleta monocromática + accent azul-tinta do tema
+ * monograph (xocothemes). Ver planning/decisions/decision-003-pivot-to-monograph.md
  */
 :root,
 [data-theme="light"] {
   --background: #ffffff;
-  --surface: #fafafa;
-  --foreground: #282430;
-  --accent: #01ad9f;
+  --card: #ffffff;
+  --foreground: #17171a;
+  --primary: #17171a;
+  --primary-foreground: #ffffff;
+  --accent: #1a4fa0;
+  --accent-strong: #123a79;
   --accent-foreground: #ffffff;
-  --muted: #eef1f2;
-  --muted-foreground: #6b7280;
-  --border: #e3e6e7;
-  --dark: #152035;
-  --dark-foreground: #f5f7f8;
+  --muted: #f4f4f5;
+  --muted-foreground: #6b6b73;
+  --border: #e6e6e8;
+  --border-strong: #d2d2d6;
+  --tip: #0f7a52;
+  --warning: #8a5b06;
+  --danger: #b42318;
+  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman",
+    ui-serif, serif;
 }
 
-/*
- * Dark theme values — o tema alvo não define uma variante escura;
- * esta paleta é uma extensão desta implementação, usando o mesmo
- * "dark" do tema alvo como plano de fundo.
- */
+/* Dark theme values — variante oficial do tema monograph, não inventada aqui. */
 [data-theme="dark"] {
-  --background: #10182b;
-  --surface: #152035;
-  --foreground: #eef1f4;
-  --accent: #2dd4c7;
-  --accent-foreground: #062521;
-  --muted: #1f2b45;
-  --muted-foreground: #a7b0c4;
-  --border: #2a3652;
-  --dark: #0a0f1c;
-  --dark-foreground: #eef1f4;
+  --background: #101012;
+  --card: #16161a;
+  --foreground: #f2f2f3;
+  --primary: #f2f2f3;
+  --primary-foreground: #101012;
+  --accent: #8ab4f8;
+  --accent-strong: #b3cffb;
+  --accent-foreground: #101012;
+  --muted: #1d1d21;
+  --muted-foreground: #a2a2aa;
+  --border: #2a2a2f;
+  --border-strong: #45454c;
+  --tip: #34d399;
+  --warning: #fbbf24;
+  --danger: #f87171;
 }
 
 ::selection {
-  background-color: #01ad9f;
-  color: #ffffff;
-}
-
-[data-theme="dark"] ::selection {
-  background-color: #0d5a53;
-  color: #eef1f4;
+  background-color: color-mix(in srgb, var(--accent) 25%, transparent);
+  color: var(--foreground);
 }

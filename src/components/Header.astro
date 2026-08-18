@@ -1,8 +1,6 @@
 ---
 import { getRelativeLocaleUrl } from "astro:i18n";
 import IconMenuDeep from "@/assets/icons/IconMenuDeep.svg";
-import IconArchive from "@/assets/icons/IconArchive.svg";
-import IconSunHigh from "@/assets/icons/IconSunHigh.svg";
 import IconSearch from "@/assets/icons/IconSearch.svg";
 import IconMoon from "@/assets/icons/IconMoon.svg";
 import IconX from "@/assets/icons/IconX.svg";
@@ -31,6 +29,25 @@ const isActive = (path: string) => {
   const pathArray = path.split("/").filter(p => p.trim());
   return currentPath === path || currentPathArray[0] === pathArray[0];
 };
+
+const navItems = [
+  { href: getRelativeLocaleUrl(locale, "post"), label: t.nav.posts, active: isActive("/post") },
+  { href: getRelativeLocaleUrl(locale, "tags"), label: t.nav.tags, active: isActive("/tags") },
+  {
+    href: getRelativeLocaleUrl(locale, "about"),
+    label: t.nav.about,
+    active: isActive("/about"),
+  },
+  ...(features.showArchives
+    ? [
+        {
+          href: getRelativeLocaleUrl(locale, "archives"),
+          label: t.nav.archives,
+          active: isActive("/archives"),
+        },
+      ]
+    : []),
+];
 ---
 
 <a
@@ -42,116 +59,110 @@ const isActive = (path: string) => {
 </a>
 
 <header class="border-border bg-background/95 sticky top-0 z-40 border-b backdrop-blur">
-  <div class="app-layout flex flex-col items-center justify-between sm:flex-row">
-    <div
-      class="relative flex w-full items-baseline justify-between py-4 sm:items-center sm:py-5"
+  <div class="app-layout flex items-center justify-between gap-6 py-4">
+    <a
+      href={getRelativeLocaleUrl(locale, "")}
+      class="inline-flex items-center gap-2 text-lg font-semibold tracking-tight whitespace-nowrap"
     >
-      <a
-        href={getRelativeLocaleUrl(locale, "")}
-        class="absolute inline-flex items-center gap-2 py-1 text-xl leading-8 font-extrabold whitespace-nowrap sm:static sm:my-auto sm:text-2xl sm:leading-none"
-      >
-        <img src="/logo.png" alt="" width="28" height="28" class="size-7 shrink-0" />
-        {site.title}
-      </a>
-      <nav
-        id="nav-menu"
-        class="flex w-full flex-col items-center sm:ms-2 sm:flex-row sm:justify-end sm:space-x-1 sm:py-0"
-      >
+      <img src="/logo.png" alt="" width="24" height="24" class="size-6 shrink-0" />
+      {site.title}
+    </a>
+
+    <div class="flex items-center gap-1 sm:gap-4">
+      <nav class="hidden items-center gap-6 sm:flex" aria-label="Primary navigation">
+        {
+          navItems.map(item => (
+            <a
+              href={item.href}
+              class:list={[
+                "relative py-1 text-xs font-medium tracking-wide uppercase",
+                item.active
+                  ? "active-nav"
+                  : "text-muted-foreground hover:text-foreground transition-colors",
+              ]}
+              aria-current={item.active ? "page" : undefined}
+            >
+              {item.label}
+            </a>
+          ))
+        }
+      </nav>
+
+      <div class="flex items-center gap-1">
+        {
+          features.search !== false && (
+            <LinkButton
+              href={getRelativeLocaleUrl(locale, "search")}
+              class="icon-btn"
+              title={t.nav.search}
+              aria-label={t.nav.search}
+            >
+              <IconSearch class="size-[1.05rem]" />
+            </LinkButton>
+          )
+        }
+
+        {
+          features.lightAndDarkMode && (
+            <button
+              id="theme-btn"
+              class="border-border bg-muted ml-1 inline-flex h-6 w-11 shrink-0 items-center rounded-full border p-0.5 transition-colors"
+              title={t.a11y.toggleTheme}
+              aria-label="auto"
+              aria-live="polite"
+            >
+              <span class="bg-background text-foreground grid size-5 translate-x-0 place-items-center rounded-full shadow transition-transform dark:translate-x-[1.15rem]">
+                <IconMoon class="hidden size-3 dark:block" />
+                <span class="dark:hidden">
+                  <svg viewBox="0 0 24 24" fill="none" class="size-3">
+                    <path
+                      d="M12 4V2M12 22v-2M4 12H2M22 12h-2M5 5 3.5 3.5M20.5 20.5 19 19M19 5l1.5-1.5M3.5 20.5 5 19"
+                      stroke="currentColor"
+                      stroke-width="2.25"
+                      stroke-linecap="round"
+                    />
+                    <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2.25" />
+                  </svg>
+                </span>
+              </span>
+            </button>
+          )
+        }
+
         <button
           id="menu-btn"
-          class="focus-outline self-end p-2 sm:hidden"
+          class="icon-btn sm:hidden"
           aria-label={t.a11y.openMenu}
           aria-expanded="false"
           aria-controls="menu-items"
           data-label-open={t.a11y.openMenu}
           data-label-close={t.a11y.closeMenu}
         >
-          <IconX id="close-icon" class="hidden" />
-          <IconMenuDeep id="menu-icon" />
+          <IconX id="close-icon" class="hidden size-5" />
+          <IconMenuDeep id="menu-icon" class="size-5" />
         </button>
-        <ul
-          id="menu-items"
-          class="[&>li>a]:hover:text-accent mt-4 hidden w-44 grid-cols-2 place-content-center gap-2 sm:mt-0 sm:flex sm:w-auto sm:items-center sm:gap-x-1 sm:gap-y-0 sm:[&>li]:h-8 [&>li>a]:block [&>li>a]:px-4 [&>li>a]:py-3 [&>li>a]:text-center [&>li>a]:text-sm [&>li>a]:font-bold [&>li>a]:tracking-wide [&>li>a]:uppercase sm:[&>li>a]:px-3 sm:[&>li>a]:py-1"
-        >
-          <li class="col-span-2">
-            <a
-              href={getRelativeLocaleUrl(locale, "post")}
-              class:list={{ "active-nav": isActive("/post") }}
-            >
-              {t.nav.posts}
-            </a>
-          </li>
-          <li class="col-span-2">
-            <a
-              href={getRelativeLocaleUrl(locale, "tags")}
-              class:list={{ "active-nav": isActive("/tags") }}
-            >
-              {t.nav.tags}
-            </a>
-          </li>
-          <li class="col-span-2">
-            <a
-              href={getRelativeLocaleUrl(locale, "about")}
-              class:list={{ "active-nav": isActive("/about") }}
-            >
-              {t.nav.about}
-            </a>
-          </li>
-          {
-            features.showArchives && (
-              <li class="col-span-2">
-                <LinkButton
-                  href={getRelativeLocaleUrl(locale, "archives")}
-                  class:list={[
-                    "focus-outline flex size-full justify-center p-3 sm:relative sm:size-9 sm:p-0",
-                    { "active-nav": isActive("/archives") },
-                  ]}
-                  title={t.nav.archives}
-                  aria-label={t.nav.archives}
-                >
-                  <IconArchive class="hidden sm:absolute sm:top-1/2 sm:left-1/2 sm:block sm:size-5 sm:-translate-x-1/2 sm:-translate-y-1/2" />
-                  <span class="sm:sr-only">{t.nav.archives}</span>
-                </LinkButton>
-              </li>
-            )
-          }
-          {
-            features.search !== false && (
-              <li class="col-span-1 flex items-center justify-center">
-                <LinkButton
-                  href={getRelativeLocaleUrl(locale, "search")}
-                  class:list={[
-                    "focus-outline bg-muted/60 hover:bg-accent hover:text-accent-foreground relative size-9 rounded-full",
-                  ]}
-                  title={t.nav.search}
-                  aria-label={t.nav.search}
-                >
-                  <IconSearch class="absolute top-1/2 left-1/2 size-4.5 -translate-x-1/2 -translate-y-1/2" />
-                  <span class="sr-only">{t.nav.search}</span>
-                </LinkButton>
-              </li>
-            )
-          }
-          {
-            features.lightAndDarkMode && (
-              <li class="col-span-1 flex items-center justify-center">
-                <button
-                  id="theme-btn"
-                  class="focus-outline bg-muted/60 hover:[&>svg]:stroke-accent relative size-9 rounded-full p-4 sm:size-9"
-                  title={t.a11y.toggleTheme}
-                  aria-label="auto"
-                  aria-live="polite"
-                >
-                  <IconMoon class="absolute top-[50%] left-[50%] translate-[-50%] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
-                  <IconSunHigh class="absolute top-[50%] left-[50%] translate-[-50%] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />
-                </button>
-              </li>
-            )
-          }
-        </ul>
-      </nav>
+      </div>
     </div>
   </div>
+
+  <ul
+    id="menu-items"
+    class="border-border hidden flex-col sm:hidden [&>li>a]:block [&>li>a]:px-6 [&>li>a]:py-4 [&>li>a]:text-lg [&>li>a]:font-semibold"
+  >
+    {
+      navItems.map(item => (
+        <li class="border-border border-t">
+          <a
+            href={item.href}
+            class:list={item.active ? "text-accent" : "text-foreground"}
+            aria-current={item.active ? "page" : undefined}
+          >
+            {item.label}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
 </header>
 
 <script>
@@ -173,7 +184,7 @@ const isActive = (path: string) => {
       menuBtn.setAttribute("aria-label", openMenu ? openLabel : closeLabel);
 
       menuItems.classList.toggle("hidden");
-      menuItems.classList.toggle("grid");
+      menuItems.classList.toggle("flex");
       menuIcon.classList.toggle("hidden");
       closeIcon.classList.toggle("hidden");
     });
