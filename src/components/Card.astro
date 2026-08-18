@@ -11,8 +11,9 @@ type Props = {
   /**
    * "feed" — whitespace-separated entry (title, excerpt, meta), no thumbnail.
    * "row" — single-line compact entry used in the dense /archives listing.
+   * "compact" — small entry used in the home sidebar's "Destaques" list.
    */
-  layout?: "feed" | "row";
+  layout?: "feed" | "row" | "compact";
 } & CollectionEntry<"post">;
 
 const {
@@ -31,7 +32,7 @@ const firstTag = tags?.[0];
 ---
 
 {
-  layout === "row" ? (
+  layout === "row" && (
     <li class="my-4">
       <a
         href={href}
@@ -50,7 +51,29 @@ const firstTag = tags?.[0];
       </a>
       <Datetime {...props} />
     </li>
-  ) : (
+  )
+}
+
+{
+  layout === "compact" && (
+    <li>
+      <a href={href} class="link-title group">
+        <Heading
+          transition:name={toTransitionName(id)}
+          class="link-title-text text-lg leading-snug font-semibold tracking-tight text-balance"
+        >
+          {title}
+        </Heading>
+        <p class="meta mt-1.5">
+          <Datetime {...props} size="sm" class="meta-accent" />
+        </p>
+      </a>
+    </li>
+  )
+}
+
+{
+  layout === "feed" && (
     <li>
       {firstTag && (
         <p class="meta mb-2">

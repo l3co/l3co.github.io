@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, getEntry } from "astro:content";
 import { getRelativeLocaleUrl } from "astro:i18n";
 import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
@@ -10,6 +10,7 @@ import Socials from "@/components/Socials.astro";
 import Card from "@/components/Card.astro";
 import LinkButton from "@/components/LinkButton.astro";
 import { getSortedPosts } from "@/utils/getSortedPosts";
+import { slugifyStr } from "@/utils/slugify";
 import { useTranslations } from "@/i18n";
 import config from "@/config";
 
@@ -20,9 +21,26 @@ const t = useTranslations(locale);
 
 const posts = await getCollection("post");
 const sortedPosts = getSortedPosts(posts);
-const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
-const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
+const featuredPosts = sortedPosts.filter(({ data }) => data.featured).slice(0, 4);
 const homePath = getRelativeLocaleUrl(locale, "");
+
+const about = await getEntry("pages", "about");
+
+// Most-used tags, for the sidebar's "Tags" widget — a lightweight stand-in
+// for monograph's "Categories" (this blog only has one taxonomy: tags).
+const tagCounts = new Map<string, { tagName: string; count: number }>();
+for (const { data } of sortedPosts) {
+  for (const tagName of data.tags) {
+    const tag = slugifyStr(tagName);
+    const entry = tagCounts.get(tag);
+    if (entry) entry.count += 1;
+    else tagCounts.set(tag, { tagName, count: 1 });
+  }
+}
+const topTags = [...tagCounts.entries()]
+  .map(([tag, value]) => ({ tag, ...value }))
+  .sort((a, b) => b.count - a.count || a.tagName.localeCompare(b.tagName))
+  .slice(0, 8);
 ---
 
 <Layout>
@@ -78,43 +96,76 @@ const homePath = getRelativeLocaleUrl(locale, "");
       }
     </section>
 
-    {
-      featuredPosts.length > 0 && (
-        <section
-          id="featured"
-          class:list={[
-            "pt-12 pb-6",
-            { "border-border border-b": recentPosts.length > 0 },
-          ]}
+    <div class="grid gap-12 py-12 lg:grid-cols-[minmax(0,4fr)_minmax(0,2fr)] lg:gap-12">
+      <section aria-labelledby="recent-posts-heading">
+        <h2 id="recent-posts-heading" class="section-title">{t.home.recentPosts}</h2>
+        <ul class="feed">
+          {sortedPosts.slice(0, postsConfig.perIndex).map(data => (
+            <Card variant="h3" {...data} />
+          ))}
+        </ul>
+
+        <LinkButton
+          class="btn btn-outline mt-16 w-full justify-center"
+          href={getRelativeLocaleUrl(locale, "post")}
         >
-          <h2 class="section-title">{t.home.featured}</h2>
-          <ul class="feed">
-            {featuredPosts.map(data => (
-              <Card variant="h3" {...data} />
-            ))}
-          </ul>
-        </section>
-      )
-    }
+          {t.home.allPosts}
+          <IconArrowRight class="inline-block rtl:-rotate-180" />
+        </LinkButton>
+      </section>
 
-    {
-      recentPosts.length > 0 && (
-        <section id="recent-posts" class="pt-12 pb-6">
-          <h2 class="section-title">{t.home.recentPosts}</h2>
-          <ul class="feed">
-            {recentPosts.slice(0, postsConfig.perIndex).map(data => (
-              <Card variant="h3" {...data} />
-            ))}
-          </ul>
+      <aside class="sidebar">
+        <section aria-labelledby="about-heading">
+          <h2 id="about-heading" class="section-title">{t.nav.about}</h2>
+          <p class="text-lg font-semibold tracking-tight">{config.site.title}</p>
+          {about && (
+            <p class="text-muted-foreground mt-2 text-sm leading-relaxed text-pretty">
+              {about.data.description}
+            </p>
+          )}
+          <LinkButton
+            class="mt-3 text-sm font-medium"
+            href={getRelativeLocaleUrl(locale, "about")}
+          >
+            {t.nav.about}
+            <IconArrowRight class="inline-block size-3.5 rtl:-rotate-180" />
+          </LinkButton>
         </section>
-      )
-    }
 
-    <div class="my-10 text-center">
-      <LinkButton class="btn btn-outline" href={getRelativeLocaleUrl(locale, "post")}>
-        {t.home.allPosts}
-        <IconArrowRight class="inline-block rtl:-rotate-180" />
-      </LinkButton>
+        {featuredPosts.length > 0 && (
+          <section aria-labelledby="featured-heading">
+            <h2 id="featured-heading" class="section-title">{t.home.featured}</h2>
+            <ul class="grid gap-7">
+              {featuredPosts.map(data => (
+                <Card layout="compact" {...data} />
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {topTags.length > 0 && (
+          <section aria-labelledby="tags-heading">
+            <h2 id="tags-heading" class="section-title">{t.nav.tags}</h2>
+            <ul class="grid gap-4">
+              {topTags.map(({ tag, tagName, count }) => (
+                <li>
+                  <a
+                    href={getRelativeLocaleUrl(locale, `tags/${tag}/`)}
+                    class="link-title group flex items-center justify-between gap-3"
+                  >
+                    <span class="link-title-text text-base font-semibold tracking-tight">
+                      {tagName}
+                    </span>
+                    <span class="pill shrink-0">
+                      {count} {count === 1 ? "post" : "posts"}
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+      </aside>
     </div>
   </main>
   <Footer />

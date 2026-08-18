@@ -122,6 +122,16 @@ pre,
   @apply text-foreground after:bg-border mb-7 flex items-center text-xs font-medium tracking-wide uppercase after:ml-4 after:h-px after:flex-grow after:content-[''];
 }
 
+/* Home sidebar: sticky beside the feed on wide screens, stacked below it on
+   narrow ones. */
+@utility sidebar {
+  @apply grid content-start gap-12;
+
+  @media (min-width: 1024px) {
+    @apply border-border sticky top-20 border-l pl-10;
+  }
+}
+
 :target {
   scroll-margin-block: 1rem;
 }
